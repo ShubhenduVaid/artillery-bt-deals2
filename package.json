@@ -1,0 +1,23 @@
+{
+  "name": "artillery-bt-deals2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "artillery run deals2-page-test.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShubhenduVaid/artillery-bt-deals2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShubhenduVaid/artillery-bt-deals2/issues"
+  },
+  "homepage": "https://github.com/ShubhenduVaid/artillery-bt-deals2#readme",
+  "devDependencies": {
+    "artillery": "^2.0.0-29"
+  }
+}
