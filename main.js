@@ -3,7 +3,7 @@ require("events").EventEmitter.defaultMaxListeners = 20;
 
 const URL =
   "https://broadband.frontend.dev.digital-ent-int.bt.com/products/broadband-and-internet/deals2";
-const DURATION = 5000;
+const DURATION = 10_000;
 const INSTANCES = 20;
 
 async function startBB() {
