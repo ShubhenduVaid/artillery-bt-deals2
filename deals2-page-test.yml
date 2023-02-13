@@ -4,17 +4,16 @@ config:
     - duration: 60
       arrivalRate: 5
       name: Warm up
-    - duration: 120
-      arrivalRate: 5
-      rampTo: 50
-      name: Ramp up load
-    - duration: 600
-      arrivalRate: 60
-      name: Sustained load
+    # - duration: 120
+    #   arrivalRate: 5
+    #   rampTo: 50
+    #   name: Ramp up load
+    # - duration: 300
+    #   arrivalRate: 20
+    #   name: Sustained load
 
 scenarios:
   - name: "load the deals2 page"
     flow:
       - get:
           url: "/deals2"
-      - think: 4

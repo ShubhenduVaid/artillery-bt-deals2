@@ -2,9 +2,10 @@
   "name": "artillery-bt-deals2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "artillery run deals2-page-test.yml"
+    "test": "artillery run deals2-page-test.yml",
+    "testB": "node main.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/ShubhenduVaid/artillery-bt-deals2#readme",
   "devDependencies": {
     "artillery": "^2.0.0-29"
+  },
+  "dependencies": {
+    "puppeteer": "^19.7.0"
   }
 }
