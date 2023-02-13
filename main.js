@@ -1,4 +1,5 @@
 const puppeteer = require("puppeteer");
+require("events").EventEmitter.defaultMaxListeners = 20;
 
 const URL =
   "https://broadband.frontend.dev.digital-ent-int.bt.com/products/broadband-and-internet/deals2";
